@@ -1,0 +1,75 @@
+header {
+  margin:0; padding: 0;
+}
+#header {
+  background-color: black;
+  height: 100px
+  width: 100%;
+}
+.container {
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#navarea {
+  width: 730px;
+  height: 100px;
+  float: right;
+}
+#nav {
+  list-style: none;
+}
+#nav li {
+  float: left;
+  margin: 30px;
+  color: black;
+  padding: 8px;
+  border: 1px solid purple;
+  border radius: 5px;
+}
+html {
+  background: url("images/twitterheader.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  text-decoration: none;
+  text-align: center;
+}
+nav {
+     width: 100%;
+     position: relative;
+     top: 0;
+}
+h2 {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
+h2 span {
+  color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}
+#content {
+  float:left;
+  width:600px;
+  height:400px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+#sidebar {
+  height:400px;
+  float:right;
+  width:330px;
+  background: black;
+}
